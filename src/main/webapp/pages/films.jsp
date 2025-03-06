@@ -8,13 +8,13 @@
 </head>
 <body>
 <h2>Movies</h2>
-<ul>
-  <c:forEach var="film" items="${films}">
-    <li>
-      <a href="${pageContext.request.contextPath}/film-details?title=${film.title}">${film.title}</a>
-    </li>
-  </c:forEach>
-</ul>
-<a href="../index.jsp">Back</a>
+    <ul>
+      <c:forEach var="film" items="${films}">
+        <li>
+          <a href="${pageContext.request.contextPath}/film-details?title=${film.title}">${film.title}</a>
+        </li>
+      </c:forEach>
+    </ul>
+  <a href="${pageContext.request.contextPath}/index.jsp">Back</a>
 </body>
 </html>

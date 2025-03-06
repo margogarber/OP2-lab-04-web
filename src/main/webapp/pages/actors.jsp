@@ -13,7 +13,7 @@
         </c:forEach>
     </ul>
 
-  <a href="../index.jsp">Back</a>
+  <a href="${pageContext.request.contextPath}/index.jsp">Back</a>
 
 </body>
 </html>
